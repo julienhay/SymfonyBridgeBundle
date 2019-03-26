@@ -23,7 +23,7 @@
         "symfony/framework-bundle": "~2.7|~3.0|~4.0",
         "symfony/dependency-injection": "~2.7|~3.0|~4.0",
         "symfony/yaml": "~2.7|~3.0|~4.0",
-        "lightsaml/lightsaml": "~1.1"
+        "lightsaml/lightsaml": "dev-master"
     },
     "require-dev": {
         "symfony/browser-kit": "~2.7|~3.0|~4.0",
@@ -32,6 +32,12 @@
         "symfony/routing": "~2.7|~3.0|~4.0",
         "phpunit/phpunit": "^5.7"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/julienhay/lightSAML.git"
+        }
+    ],
     "config": {
         "bin-dir": "bin"
     },
